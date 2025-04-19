@@ -14,5 +14,4 @@ export default defineConfig({
       transformMixedEsModules: true
     }
   },
-  base: process.env.NODE_ENV === 'production' ? '/txtar-splitter/' : '/'
 });
